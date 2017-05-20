@@ -1,13 +1,13 @@
 #!/bin/sh
 
 # Syntax:
-# ./train-udpipeline.sh model-prefix training-data validation-data
+# ./train-udpipe.sh model-prefix training-data validation-data
 #
 # Example: 
-# ./train-udpipeline.sh bm-train-25 ud-bokmal/subsets/no-ud-train-25.conllu ud-bokmal/no-ud-dev.conllu
+# ./train-udpipeline.sh my-bm ud-data/bm/bm-train.conllu ud-data/bm/bm-dev.conllu
 #
 # To evaluate:
-# udpipe --accuracy --tag --parse ../udpipe-models/bm-train-25.model ../ud-data/ud-bokmal/no-ud-dev.conllu 
+# udpipe --accuracy --tag --parse ../udpipe-models/my-bm.model ../ud-data/bm/bm-dev.conllu 
 #
 # Model files (word2vec embeddings and udpipe model) are created under '../udpipe-models/'.
 
