@@ -5,7 +5,7 @@ The files;
 * mt-nn-to-bm-dev.conllu
 * mt-nn-to-bm-test.conllu
 
-contains the result of automatically translating the corresponding sections (train, dev, test) of the Nynorsk UD NDT to Bokmål using Apertium. Note that only the full-forms are translated, not the lemma column. The only sanity checking performed was ensuring that the number of tokens in the target translation matched that of the source. Sentences where the token counts diverged are not included in files avbove. For these cases, the original Nynorsk version is preserved in the following files;
+contains the result of automatically translating the corresponding sections (train, dev, test) of the Nynorsk UD NDT to Bokmål using [Apertium](https://sourceforge.net/p/apertium/svn/HEAD/tree/). Note that only the full-forms are translated, not the lemma column. The only sanity checking performed was ensuring that the number of tokens in the target translation matched that of the source. Sentences where the token counts diverged are not included in files avbove. For these cases, the original Nynorsk version is preserved in the following files;
 
 * skipped-mt-nn-to-bm-train.conllu 
 * skipped-mt-nn-to-bm-dev.conllu
