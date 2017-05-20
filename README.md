@@ -25,3 +25,15 @@ To evaluate:
 udpipe --accuracy --tag --parse ../udpipe-models/my-bm.model ../ud-data/bm/bm-dev.conllu 
 ```
 All model files (word2vec embeddings and udpipe model) are created under `../udpipe-models/`.
+
+## Cite
+```
+@InProceedings{VelOvrHoh17,
+  author = {Erik Velldal and Lilja Øvrelid and Petter Hohle},
+  title = {Joint UD Parsing of Norwegian Bokmål and Nynorsk},
+  booktitle = {Proceedings of the 21st Nordic Conference of Computational Linguistics},
+  pages = {1--10},
+  year = {2017},
+  address = {Gothenburg, Sweden}
+}
+```
