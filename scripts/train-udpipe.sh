@@ -4,7 +4,7 @@
 # ./train-udpipe.sh model-prefix training-data validation-data
 #
 # Example: 
-# ./train-udpipeline.sh my-bm ud-data/bm/bm-train.conllu ud-data/bm/bm-dev.conllu
+# ./train-udpipeline.sh my-bm ../ud-data/bm/bm-train.conllu ../ud-data/bm/bm-dev.conllu
 #
 # To evaluate:
 # udpipe --accuracy --tag --parse ../udpipe-models/my-bm.model ../ud-data/bm/bm-dev.conllu 
